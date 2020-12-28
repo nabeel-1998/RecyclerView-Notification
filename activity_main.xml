@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageView_notification"
+            android:src="@drawable/notificationgroups"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/underline"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/imageView_notification"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerView_Notifications"
+        android:layout_below="@+id/imageView_notification" 
+       />
+    
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <ImageView
+        android:src="@drawable/iconhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/iconHome"
+         />
+    <ImageView
+        android:src="@drawable/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="559dp"
+        android:id="@+id/line2"
+         />
+    <ImageView
+        android:src="@drawable/iconfunds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"        
+        android:layout_marginStart="100dp"
+        android:id="@+id/iconFunds"
+         />
+    <ImageView
+        android:src="@drawable/iconnotifcation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"        
+        android:layout_marginStart="160dp"
+        android:id="@+id/iconNotifications"
+         />
+    <ImageView
+        android:src="@drawable/iconlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"        
+        android:layout_marginStart="245dp"
+        android:id="@+id/iconMap"
+         />
+    <ImageView
+        android:src="@drawable/iconsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"        
+        android:layout_marginStart="310dp"
+        android:id="@+id/iconSettings"
+         />
+    <ImageView
+        android:src="@drawable/rectangle69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="559dp"
+        android:id="@+id/line"
+         />
+
+     
+    </RelativeLayout>
+
+</RelativeLayout>

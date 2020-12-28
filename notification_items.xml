@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#fff"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:contentPadding="3dp"
+    >
+
+     <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F3F7"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relativeLayout1_cardview"
+        >
+        <Refractored.Controls.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/profile"
+            android:id="@+id/circleImageView1_notifications"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabeel Khan"
+            android:textStyle="bold"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:id="@+id/tv_name_notification"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Manhole spill near Gulshan e Iqbal block-4"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_below="@+id/tv_name_notification"
+            android:id="@+id/tv_info_notification"
+            android:textColor="#7b7b7b"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24m"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/tv_name_notification"
+            android:id="@+id/tv_time_noti"
+            android:textColor="#000"/>
+
+        
+        
+        
+    </RelativeLayout>
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/timernoti"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/tv_name_notification"
+            android:layout_marginStart="350dp"
+            android:id="@+id/timer_noti"
+            />
+
+</android.support.v7.widget.CardView>
